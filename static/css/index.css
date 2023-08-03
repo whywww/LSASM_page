@@ -138,7 +138,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 500px;
+  width: 650px;
   padding-bottom: 20px;
 }
 
@@ -164,13 +164,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   /* max-height: 70px; */
-  max-width: 360px;
+  max-width: 380px;
   padding-bottom: 20px;
 }
 
 
 .subtitle {
-  font-size: 18px;
+  font-size: 19px;
   color: #000;
   font-family: 'Linux Biolinum', sans-serif;
   padding-bottom: 5px;
