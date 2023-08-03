@@ -184,8 +184,8 @@
           We adopt the angular spectrum method (ASM) as it is a rigorous formulation of off-axis diffraction. An input field with an angular spectrum U has a diffraction field at distance z calculated by:
         </p>
         <img src="static/images/asm.png" class="eq-image"/>
-        <p>where<math xmlns="http://www.w3.org/1998/Math/MathML" style="color:rgba(0,0,0,255);color:rgb(0,0,0);font-size:13.00pt;"><mstyle><mrow><mtable columnspacing="0.1em" columnalign="left" displaystyle="true"><mtr><mtd><mrow><msub><mi>H</mi><mi>z</mi></msub></mrow></mtd></mtr></mtable></mrow></mstyle></math>is the propagation function.<br>
-          We propose the Least-Sampling ASM (LS-ASM) that minimizes the sampling requirements in both spatial and frequency domains and unifies the critical sampling rates for all types of input fields. 
+        <p>where<math xmlns="http://www.w3.org/1998/Math/MathML" style="color:rgba(0,0,0,255);color:rgb(0,0,0);font-size:13.00pt;"><mstyle><mrow><mtable columnspacing="0.1em" columnalign="left" displaystyle="true"><mtr><mtd><mrow><msub><mi>H</mi><mi>z</mi></msub></mrow></mtd></mtr></mtable></mrow></mstyle></math>is the propagation function.
+          <p>We propose the Least-Sampling ASM (LS-ASM) that minimizes the sampling requirements in both spatial and frequency domains and unifies the critical sampling rates for all types of input fields. </p>
           <ol>
           <li>With <i>linear phase compensation (LPC)</i>, we shift the frequency centers of off-axis wave fields to the origin using the Fourier transform properties;</li>
           <li>With <i>virtual lens model</i>, we calculate a controllable region of band extension as a supplement to the phase gradient analysis;</li>
@@ -228,7 +228,8 @@
         <p>
           The results are compared against a baseline method (Shift-BEASM) and the ground truth (Rayleigh-Sommerfeld Integral).
           Two cases of comparisons are considered:
-          <br> 
+        </p>
+        <p>
           In Case 1, where the samples in Shift-BEASM are set to achieve the same level of SNR as LS-ASM, LS-ASM consistently performs at a <b>remarkably short runtime</b> even <b>at large angles</b> (e.g., 20 degrees), outperforming the Shift-BEASM by over 35x.
           <br>
           In Case 2, where the samples in Shift-BEASM are set as the same rate as LS-ASM, the baseline yields incorrect results while ours consistantly performs well along all angles.
